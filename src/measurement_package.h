@@ -14,9 +14,9 @@ class MeasurementPackage {
   MeasurementPackage(SensorType st, Eigen::VectorXd meas, long long ts) :
       sensor_type_(st), raw_measurements_(meas), timestamp_(ts) {};
 
+  Eigen::VectorXd raw_measurements_;
   long long timestamp_;
 
-  Eigen::VectorXd raw_measurements_;
 };
 
 #endif // MEASUREMENT_PACKAGE_H_
