@@ -116,6 +116,7 @@ Port Forwarding Instructions:
 3. Compile: `cmake .. && make` 
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 4. Run it: `./ExtendedKF `
+5. in simulator, option: 1/2: EKF
 
 This repository has a `Makefile` and the instructions above you can simply replace by the following commands:
 
@@ -123,6 +124,7 @@ This repository has a `Makefile` and the instructions above you can simply repla
 2. make build
 3. cd build
 4. ./ExtendedKF
+5. in simulator, use option 1/2: EKF
 
 ---
 
