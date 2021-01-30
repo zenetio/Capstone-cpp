@@ -42,7 +42,10 @@ Note: Only uWebSocketIO branch e94b6e1, which the scripts reference, is compatib
 
 **Linux Installation:**
 
-From the project repository directory run the script: `install-ubuntu.sh`
+From the project repository directory run the script: `install-ubuntu.sh` using the command `./install-ubuntu.sh`<br>
+- Troubleshooting
+  - **.sh files not recognized on run:** Try `chmod a+x <filename.sh>` for example `chmod a+x install-ubuntu.sh`
+  - **Messages regarding 404s, missing resources, and a variety of other error messages** can be addressed by updates.
 
 **Mac Installation:**
 
